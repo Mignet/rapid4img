@@ -1,0 +1,15 @@
+[package]
+name = "upfile"
+version = "0.1.0"
+authors = ["mignet <mignetwee@gmail.com>"]
+[dependencies]
+iron = "0.2"
+image = "*"
+time = "*"
+router = "*"
+rustc-serialize = "*"
+rust-crypto = "0.2.35"
+[dependencies.multipart]
+version = "0.5.1"
+default-features = false
+features = ["server", "iron"]
